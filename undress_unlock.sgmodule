@@ -1,13 +1,13 @@
 #!name=Undress.app 本地解锁模块
 #!desc=一键解锁 Undress.app 会员功能，修改积分/VIP状态 (仅本地生效)
-#!author=把杨薇薇日高潮的人
+#!author=把杨薇薇日起高潮的人
 #!date=2024-05-06
-#!module-url=https://github.com/hurui5423/ywwaini/blob/main/undress_modify.js
+#!module-url=https://your-domain.com/modules/undress_unlock.sgmodule
 
 # 脚本规则
 # 当访问用户信息API时，自动执行远程脚本
 [Script]
-Undress本地解锁 = type=http-response, pattern=^https:\/\/api\.undress\.app\/user\/info, requires-body=true, max-size=0, script-path=https://your-domain.com/scripts/undress_modify.js
+Undress本地解锁 =ax-size=0, script-path=https://github.com/hurui5423/ywwaini/blob/main/undress_modify.js
 
 # 主机名解密配置
 # 自动将以下域名加入MitM解密列表
